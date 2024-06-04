@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="krpi" fetch="https://github.com/" />
+
+  <project path="device/broadcom/rpi4" name="kyndytran/android_device_broadcom_rpi4" remote="krpi" revision="android14" />
+  <project path="device/broadcom/rpi-common" name="kyndytran/android_device_broadcom_rpi-common" remote="krpi" revision="android14" />
+  <project path="vendor/broadcom/proprietary" name="kyndytran/android_vendor_broadcom_proprietary" remote="krpi" revision="android14" />
+</manifest>
