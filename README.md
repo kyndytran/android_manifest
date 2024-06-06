@@ -8,7 +8,7 @@
 * sudo apt-get install -y ccache
 * export USE_CCACHE=1
 * mkdir -pv <my_working_dir>/MYCCACHE_DIR (Create the folder on the disk which has more than 50GB available to use ccache)
-* export CCACHE_DIR=<<my_working_dir>/MYCCACHE_DIR/ (Update <my_working_dir> by your real path)
+* export CCACHE_DIR=<my_working_dir>/MYCCACHE_DIR/ (Update <my_working_dir> by your real path)
 * export CCACHE_EXEC=/usr/bin/ccache
 * ccache -M 50G
 
