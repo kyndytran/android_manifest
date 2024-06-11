@@ -15,4 +15,7 @@
   <!-- Display HAL -->
   <remove-project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" />
   <project path="device/generic/goldfish-opengl" name="kyndytran/android_device_generic_goldfish-opengl" remote="krpi" revision="android-14.0.0_r45" />
+
+  <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" />
+  <project path="hardware/interfaces" name="kyndytran/android_hardware_interfaces" remote="krpi" revision="android-14.0.0_r45" />
 </manifest>
