@@ -11,4 +11,8 @@
   <remove-project path="external/mesa3d" name="platform/external/minigbm" />
   <project path="external/minigbm" name="kyndytran/android_external_minigbm" remote="krpi" revision="android-14.0.0_r45_minigbm_v1" />
   <project path="external/mesa3d" name="kyndytran/android_external_mesa3d" remote="krpi" revision="mesa-24.1.1" />
+
+  <!-- Display HAL -->
+  <remove-project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" />
+  <project path="device/generic/goldfish-opengl" name="kyndytran/android_device_generic_goldfish-opengl" remote="krpi" revision="android-14.0.0_r45" />
 </manifest>
