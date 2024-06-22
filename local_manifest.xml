@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="krpi" fetch="https://github.com/" />
+  <remote name="krpi" fetch="https://github.com/kyndytran" />
 
-  <project path="device/broadcom/rpi4" name="kyndytran/android_device_broadcom_rpi4" remote="krpi" revision="android14" />
-  <project path="device/broadcom/rpi-common" name="kyndytran/android_device_broadcom_rpi-common" remote="krpi" revision="android14" />
-  <project path="vendor/broadcom/proprietary" name="kyndytran/android_vendor_broadcom_proprietary" remote="krpi" revision="android14" />
+  <project path="device/broadcom/rpi4" name="android_device_broadcom_rpi4" remote="krpi" revision="android14" />
+  <project path="device/broadcom/rpi-common" name="android_device_broadcom_rpi-common" remote="krpi" revision="android14" />
+  <project path="vendor/broadcom/proprietary" name="android_vendor_broadcom_proprietary" remote="krpi" revision="android14" />
 
   <!-- Graphics parts -->
   <remove-project path="external/minigbm" name="platform/external/minigbm" />
   <remove-project path="external/mesa3d" name="platform/external/mesa3d" />
-  <project path="external/minigbm" name="kyndytran/android_external_minigbm" remote="krpi" revision="android-14.0.0_r45_minigbm_v1" />
-  <project path="external/mesa3d" name="kyndytran/android_external_mesa3d" remote="krpi" revision="mesa-24.1.1" />
+  <project path="external/minigbm" name="android_external_minigbm" remote="krpi" revision="android-14.0.0_r45_minigbm_v1" />
+  <project path="external/mesa3d" name="android_external_mesa3d" remote="krpi" revision="mesa-24.1.1" />
 
   <!-- Display HAL -->
   <remove-project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" />
-  <project path="device/generic/goldfish-opengl" name="kyndytran/android_device_generic_goldfish-opengl" remote="krpi" revision="android-14.0.0_r45" />
+  <project path="device/generic/goldfish-opengl" name="android_device_generic_goldfish-opengl" remote="krpi" revision="android-14.0.0_r45" />
 
   <remove-project path="hardware/interfaces" name="platform/hardware/interfaces" />
-  <project path="hardware/interfaces" name="kyndytran/android_hardware_interfaces" remote="krpi" revision="android-14.0.0_r45" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="krpi" revision="android-14.0.0_r45" />
 
   <!-- HAL -->
-  <project path="vendor/broadcom/hal/usbgadget" name="kyndytran/android_vendor_broadcom_hal_usbgadget" remote="krpi" revision="android14-hidl" />
+  <project path="vendor/broadcom/hal/usbgadget" name="android_vendor_broadcom_hal_usbgadget" remote="krpi" revision="android14-hidl" />
 </manifest>
